@@ -1,27 +1,28 @@
 {
-  "name": "hopscotch",
+  "name": "@provata/hopscotch",
   "version": "0.3.1",
   "description": "A framework to make it easy for developers to add product tours to their pages.",
   "main": "dist/js/hopscotch.min.js",
   "directories": {
     "test": "test"
   },
+  "homepage": "https://github.com/ProvataHealth/hopscotch#readme",
   "scripts": {
     "test": "grunt test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/linkedin/hopscotch.git"
-  },
+  // "repository": {
+  //   "type": "git",
+  //   "url": "git://github.com/linkedin/hopscotch.git"
+  // },
   "author": {
     "name": "Hopscotch's community of authors and contributors",
     "url": "https://github.com/linkedin/hopscotch/graphs/contributors"
   },
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/linkedin/hopscotch/issues"
-  },
+  // "bugs": {
+  //   "url": "https://github.com/linkedin/hopscotch/issues"
+  // },
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
