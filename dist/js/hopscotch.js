@@ -1,4 +1,4 @@
-/**! hopscotch - v0.3.1
+/**! @provata/hopscotch - v0.3.1
 *
 * Copyright 2017 LinkedIn Corp. All rights reserved.
 *
@@ -819,9 +819,13 @@
       }
 
       // Find arrow among new child elements.
-      var children = el.children;
-      var numChildren = children.length;
-      var node;
+      var children = null;
+      var numChildren = null;
+      var node = null;
+
+      children = el.children;
+      numChildren = children.length;
+
       for (i = 0; i < numChildren; i++) {
         node = children[i];
 
